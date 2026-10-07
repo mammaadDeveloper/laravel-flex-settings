@@ -90,7 +90,7 @@
                 "LaravelFlexSettings\\LaravelFlexSettingsServiceProvider"
             ],
             "aliases": {
-                "LaravelFlexSettings": "LaravelFlexSettings\\Facades\\LaravelFlexSettings"
+                "Setting": "LaravelFlexSettings\\Facades\\Setting"
             }
         }
     },

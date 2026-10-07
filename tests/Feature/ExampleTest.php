@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use LaravelFlexSettings\LaravelFlexSettings\LaravelFlexSettings;
+use LaravelFlexSettings\LaravelFlexSettings;
 
 it('resolves the singleton', function () {
     expect(app(LaravelFlexSettings::class))->toBeInstanceOf(LaravelFlexSettings::class);
