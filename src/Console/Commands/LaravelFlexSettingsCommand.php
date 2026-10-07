@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace LaravelFlexSettings\LaravelFlexSettings\Console\Commands;
+namespace LaravelFlexSettings\Console\Commands;
 
 use Illuminate\Console\Command;
 

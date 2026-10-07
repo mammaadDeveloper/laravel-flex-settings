@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelFlexSettings\\LaravelFlexSettings\\": "src/"
+            "LaravelFlexSettings\\": "src/"
         }
     },
     "autoload-dev": {
@@ -87,10 +87,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelFlexSettings\\LaravelFlexSettings\\LaravelFlexSettingsServiceProvider"
+                "LaravelFlexSettings\\LaravelFlexSettingsServiceProvider"
             ],
             "aliases": {
-                "LaravelFlexSettings": "LaravelFlexSettings\\LaravelFlexSettings\\Facades\\LaravelFlexSettings"
+                "Setting": "LaravelFlexSettings\\Facades\\Setting"
             }
         }
     },

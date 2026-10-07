@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace LaravelFlexSettings\LaravelFlexSettings;
+namespace LaravelFlexSettings;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelFlexSettings\LaravelFlexSettings\Console\Commands\LaravelFlexSettingsCommand;
+use LaravelFlexSettings\Console\Commands\LaravelFlexSettingsCommand;
 
 class LaravelFlexSettingsServiceProvider extends ServiceProvider
 {
