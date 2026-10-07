@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace LaravelFlexSettings\LaravelFlexSettings\Facades;
+namespace LaravelFlexSettings\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -13,6 +13,6 @@ class LaravelFlexSettings extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \LaravelFlexSettings\LaravelFlexSettings\LaravelFlexSettings::class;
+        return \LaravelFlexSettings\LaravelFlexSettings::class;
     }
 }

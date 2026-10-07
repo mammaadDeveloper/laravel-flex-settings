@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace LaravelFlexSettings\LaravelFlexSettings;
+namespace LaravelFlexSettings;
 
 class LaravelFlexSettings
 {
